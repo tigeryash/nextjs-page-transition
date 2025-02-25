@@ -7,11 +7,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Outfit-Medium";
+  src: url("/fonts/Outfit-Medium.woff2") format("woff2"),
+    url("/fonts/Outfit-Medium.woff") format("woff"),
+    url("/fonts/Outfit-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
 
 body {
-  font-family: "Neue Haas Grotesk Text Pro", "Arial", sans-serif;
   background-color: #000;
   color: theme("colors.copy");
+  font-family: "Outfit-Medium", sans-serif;
 }
 
 img {
@@ -26,7 +35,6 @@ a {
   color: theme("colors.copy");
   font-weight: 600;
   padding: 0.5rem;
-  font-family: "Akkurat Mono";
   font-size: 12px;
 }
 
