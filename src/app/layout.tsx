@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <ViewTransitions>
       <html lang="en">
-        <body className={` antialiased`}>
+        <body className={`  antialiased`}>
           <Nav />
           {children}
         </body>
